@@ -6,8 +6,8 @@ title: "Documentation TOC"
 # Documentation Table of Contents
 
 ## Collections
-- [All Libraries](/collections/all.html)
-- [Relay Voyager](/collections/relay-voyager.html)
+- [All Libraries](/cursor-docs/collections/all.html)
+- [Relay Voyager](/cursor-docs/collections/relay-voyager.html)
 
 ## Libraries
 {% assign libs = site.pages | where_exp:"p","p.path contains 'lib-docs/'" | sort: "path" %}
