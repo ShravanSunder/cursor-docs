@@ -5,6 +5,9 @@ title: "Documentation TOC"
 
 # Documentation Table of Contents
 
+## Tools
+- [SQL Analyze](/cursor-docs/SQL%20Analyze.html)
+
 ## Collections
 - [All Libraries](/cursor-docs/collections/all.html)
 - [Relay Voyager](/cursor-docs/collections/relay-voyager.html)
