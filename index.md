@@ -14,5 +14,5 @@ title: "Documentation TOC"
 
 ## Libraries
 {% assign libs = site.pages | where_exp:"p","p.path contains 'lib-docs/'" | sort: "path" %}
-{% for lib in libs %}- [{{ lib.title | default: lib.path | split: '/' | last | replace: '.md','' }}]({{ lib.url }})
+{% for lib in libs %}- [{{ lib.title | default: lib.path | split: '/' | last | replace: '.md','' }}](/cursor-docs{{ lib.url }})
 {% endfor %} 
